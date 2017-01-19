@@ -52,10 +52,8 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security Patch Level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
-<<<<<<< HEAD
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
-=======
 # Treble
 BOARD_VENDORIMAGE_PARTITION_SIZE := 629145600
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -65,4 +63,3 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/tissot/BoardConfigVendor.mk
->>>>>>> 4cc3eb8... tissot: Enable vendor partition and full treble
