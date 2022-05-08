@@ -13,6 +13,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EVO_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_USES_MINI_GAPPS := true
 
 # Inherit from tissot device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
