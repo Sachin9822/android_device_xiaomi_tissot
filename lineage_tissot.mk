@@ -41,6 +41,9 @@ WITH_GMS := true
 # Maintainer flag
 RICE_MAINTAINER := HaKaN
 
+# Sushi Bootanimation
+SUSHI_BOOTANIMATION := 1080
+
 # Device flag
 RICE_DEVICE := tissot
 
