@@ -35,6 +35,9 @@ BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:u
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_GAPPS_ARCH := arm64
 
+# gapps build flag
+WITH_GMS := true
+
 # Maintainer flag
 RICE_MAINTAINER := HaKaN
 
