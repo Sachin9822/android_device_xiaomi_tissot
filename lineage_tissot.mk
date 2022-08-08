@@ -38,6 +38,9 @@ TARGET_GAPPS_ARCH := arm64
 # Maintainer flag
 RICE_MAINTAINER := HaKaN
 
+# Sushi Bootanimation
+SUSHI_BOOTANIMATION := 1080
+
 # Device flag
 RICE_DEVICE := tissot
 
