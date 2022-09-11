@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tissot.mk
+    $(LOCAL_DIR)/evolution_tissot.mk
+
