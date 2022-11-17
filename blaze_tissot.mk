@@ -15,6 +15,8 @@ BLAZE_MAINTAINER := Sachin
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 
+#gapps
+WITH_GAPPS := true
 
 # Inherit from tissot device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
