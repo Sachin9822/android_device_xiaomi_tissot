@@ -38,10 +38,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
     bootctrl.msm8953.recovery
 
-PRODUCT_PACKAGES += \
-    system/framework/oat/arm/org.lineageos.platform.odex \
-    system/framework/oat/arm/org.lineageos.platform.vdex
-
 
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
