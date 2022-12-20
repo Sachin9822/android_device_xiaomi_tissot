@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_tissot.mk
+    $(LOCAL_DIR)/cipher_tissot.mk
 
