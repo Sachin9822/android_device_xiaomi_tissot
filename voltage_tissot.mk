@@ -8,12 +8,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ProjectBlaze stuff
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
-BLAZE_BUILD_TYPE := UNOFFICIAL
-BLAZE_MAINTAINER := Sachin
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_USE_PIXEL_CHARGER := true
+# Inherit some common VoltageOS stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+
+# Official-ify
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
 
 #gapps
 WITH_GAPPS := true
@@ -23,7 +22,7 @@ $(call inherit-product, device/xiaomi/tissot/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
-PRODUCT_NAME := blaze_tissot
+PRODUCT_NAME := voltage_tissot
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A1
