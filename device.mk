@@ -53,7 +53,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8953
+    camera.msm8953 \
+    libqdMetaData \
+    libqservice
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
